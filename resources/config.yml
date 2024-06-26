@@ -1,0 +1,17 @@
+# ClickGuard Configuration File
+
+# This configuration file allows you to customize the behavior of the ClickGuard plugin.
+# You can set the maximum allowed clicks per second and the maximum number of violations
+# before a player is banned. Please adjust these settings according to your server's needs.
+
+# Maximum allowed clicks per second before considering it as cheating.
+clicks-per-second: 20  # Default: 20
+
+# Maximum number of violations before a player gets banned.
+max-violations: 3  # Default: 3
+
+# Detailed explanation:
+# - clicks-per-second: The threshold for clicks in one second that, if exceeded, will
+#   count as a violation. Players clicking faster than this rate may be using an auto clicker.
+# - max-violations: The number of times a player can exceed the click rate threshold before
+#   they are banned from the server. After reaching this number, the player will be permanently banned.
